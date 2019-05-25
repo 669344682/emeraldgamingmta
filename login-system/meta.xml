@@ -1,0 +1,14 @@
+<meta>
+    <info name="Login System" author="Emerald Gaming Development Team" type="script" description="Main Login System" />
+
+    <script src="s_login.luac" type="server" />
+    <script src="c_login.lua" type="client" />
+
+    <!-- Images -->
+    <file src="images/usernameImage.png" />
+    <file src="images/passwordImage.png" />
+    <file src="images/emailImage.png" />
+    
+    <!-- Sounds -->
+    <file src="sounds/music.mp3" />
+</meta>

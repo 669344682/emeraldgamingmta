@@ -1,0 +1,128 @@
+<meta>
+	<info author="Emerald Gaming Development Team" description="Item System" type="script" version="1.0" />
+	
+	<script src="s_items.lua" type="server" />
+	<script src="g_items.lua" type="shared" />
+		<export function="getItemName" type="shared" />
+		<export function="getItemTable" type="shared" />
+		<export function="getItemObjectID" type="shared" />
+
+	<script src="c_items.lua" type="client" />
+
+	<script src="s_inventory.lua" type="server" />
+		<export function="playerHasItem" type="server" />
+		<export function="giveItem" type="server" />
+		<export function="takeItem" type="server" />
+
+	<script src="g_inventory.lua" type="shared" />
+	<script src="c_inventory.lua" type="client" />
+
+	<script src="s_item_functions.lua" type="server" />
+		<export function="getItem" type="server" />
+
+	<script src="s_item_spawner.lua" type="server" />
+	<script src="c_item_spawner.lua" type="client" />
+
+	<!-- /images/ -->
+		<!-- /ui/ -->
+		<file src="images/ui/slot.png" />
+		<file src="images/ui/alpha_lock.png" />
+		<file src="images/ui/lock.png" />
+		<file src="images/ui/green_lock.png" />
+		<file src="images/ui/pin.png" />
+		<file src="images/ui/alpha_reset.png" />
+		<file src="images/ui/reset.png" />
+
+		<!-- /items/ -->
+		<file src="images/items/1.png" />
+		<!-- <file src="images/items/2.png" /> -->
+		<file src="images/items/3.png" />
+		<file src="images/items/4.png" />
+		<file src="images/items/5.png" />
+		<file src="images/items/6.png" />
+		<file src="images/items/7.png" />
+		<file src="images/items/8.png" />
+		<file src="images/items/9.png" />
+		<file src="images/items/10.png" />
+		<file src="images/items/11.png" />
+		<file src="images/items/12.png" />
+		<file src="images/items/13.png" />
+		<file src="images/items/14.png" />
+		<file src="images/items/15.png" />
+		<file src="images/items/16.png" />
+		<file src="images/items/17.png" />
+		<file src="images/items/18.png" />
+		<file src="images/items/19.png" />
+		<file src="images/items/20.png" />
+		<file src="images/items/21.png" />
+		<file src="images/items/22.png" />
+		<file src="images/items/23.png" />
+		<file src="images/items/24.png" />
+		<file src="images/items/25.png" />
+		<file src="images/items/26.png" />
+		<file src="images/items/27.png" />
+		<file src="images/items/28.png" />
+		<file src="images/items/29.png" />
+		<file src="images/items/30.png" />
+		<file src="images/items/31.png" />
+		<file src="images/items/32.png" />
+		<file src="images/items/33.png" />
+		<file src="images/items/34.png" />
+		<file src="images/items/35.png" />
+		<file src="images/items/36.png" />
+		<file src="images/items/37.png" />
+		<file src="images/items/38.png" />
+		<file src="images/items/39.png" />
+		<file src="images/items/40.png" />
+		<file src="images/items/41.png" />
+		<file src="images/items/42.png" />
+		<file src="images/items/43.png" />
+		<file src="images/items/44.png" />
+		<file src="images/items/45.png" />
+		<file src="images/items/46.png" />
+		<file src="images/items/47.png" />
+		<!-- <file src="images/items/48.png" /> -->
+		<file src="images/items/49.png" />
+		<file src="images/items/50.png" />
+		<file src="images/items/51.png" />
+		<file src="images/items/52.png" />
+		<file src="images/items/53.png" />
+		<file src="images/items/54.png" />
+		<file src="images/items/55.png" />
+		<file src="images/items/56.png" />
+		<file src="images/items/57.png" />
+		<file src="images/items/58.png" />
+		<file src="images/items/59.png" />
+		<file src="images/items/60.png" />
+		<file src="images/items/61.png" />
+		<file src="images/items/62.png" />
+		<file src="images/items/63.png" />
+		<file src="images/items/64.png" />
+		<file src="images/items/65.png" />
+		<file src="images/items/66.png" />
+		<file src="images/items/67.png" />
+		<file src="images/items/68.png" />
+		<file src="images/items/69.png" />
+		<file src="images/items/70.png" />
+		<file src="images/items/71.png" />
+		<file src="images/items/72.png" />
+		<file src="images/items/73.png" />
+		<file src="images/items/74.png" />
+		<!-- <file src="images/items/75.png" /> -->
+		<file src="images/items/76.png" />
+		<file src="images/items/77.png" />
+		<file src="images/items/78.png" />
+		<file src="images/items/79.png" />
+		<file src="images/items/80.png" />
+		<file src="images/items/81.png" />
+		<file src="images/items/82.png" />
+		<file src="images/items/83.png" />
+		<file src="images/items/84.png" />
+		<file src="images/items/85.png" />
+		<file src="images/items/86.png" />
+		<file src="images/items/87.png" />
+		<file src="images/items/88.png" />
+		<file src="images/items/89.png" />
+		<file src="images/items/90.png" />
+		<file src="images/items/91.png" />
+</meta>

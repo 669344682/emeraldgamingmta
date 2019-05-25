@@ -1,0 +1,8 @@
+<meta>
+    <info name="Animation System" author="Emerald Gaming Development Team" type="script" description="Animation System"/>	
+    
+    <script src="s_animation.lua" type="server" />
+    <script src="c_animation.lua" type="client" />
+
+    <config src="animations.xml" type="client" />
+</meta>

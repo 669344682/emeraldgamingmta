@@ -1,0 +1,16 @@
+<meta>
+		<info name="Data" author="Skully" type="script" description="Data Saving System" />
+
+		<script src="s_data.lua" type="server" />
+			<export function="allocateElement" type="server" />
+			<export function="getDataElementsByType" type="server" />
+			<export function="getElement" type="server" />
+
+		<script src="g_reports.lua" type="shared" />
+			<export function="saveReports" type="shared" />
+			<export function="loadReports" type="shared" />
+
+		<script src="g_data.lua" type="server" />
+			<export function="saveData" type="shared" />
+			<export function="loadData" type="shared" />
+</meta>

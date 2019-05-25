@@ -1,0 +1,34 @@
+<meta>
+    <info name="Admin System" author="Emerald Gaming Development Team" type="script" description="Admin System" />	
+    <script src="s_commands.lua" type="server" />
+    <script src="c_commands.lua" type="client" />
+
+    <script src="s_makegun.lua" type="server" />
+    <script src="c_makegun.lua" type="client" />
+
+    <script src="s_staffmenu.lua" type="server" />
+    <script src="c_staffmenu.lua" type="client" />
+
+    <script src="s_freecam.lua" type="server" />
+    <script src="c_freecam.lua" type="client" />
+
+    <script src="s_punishments.lua" type="server" />
+    <script src="c_punishments.lua" type="client" />
+
+    <script src="s_check.lua" type="server" />
+    <script src="c_check.lua" type="client" />
+    
+    <script src="c_announcement.lua" type="client" />
+
+    <script src="c_recon.lua" type="client" />
+
+    <script src="c_wallview.lua" type="client" />
+    <file src="fx/ped_wall.fx" type="client" />
+    <file src="fx/ped_wall_mrt.fx" type="client" />
+    <file src="fx/post_edge.fx" type="client" />
+
+    <file src="sounds/nudgeSound.mp3" />
+    <file src="sounds/announcementSound.mp3" />
+
+    <min_mta_version server="1.5.5-9.14060" client="1.5.5-9.14060" />
+</meta>

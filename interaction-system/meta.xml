@@ -1,0 +1,11 @@
+<meta>
+	<info name="Interaction System" author="Skully" type="script" description="World Interaction System" />
+
+	<script src="s_interaction.lua" type="server" />
+	<script src="g_interaction.lua" type="shared" />
+	<script src="c_interaction.lua" type="client" />
+
+	<script src="c_vehicle_descriptions.lua" type="client" />
+
+	<script src="c_playerlook.lua" type="client" />
+</meta>

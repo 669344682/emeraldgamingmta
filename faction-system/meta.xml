@@ -1,0 +1,16 @@
+<meta>
+	<info name="Faction System" author="Skully" type="script" description="Faction System" />	
+	
+	<script src="s_factions.lua" type="server" />
+	<script src="g_factions.lua" type="shared" />
+	<script src="c_factions.lua" type="client" />
+
+	<script src="s_faction_functions.lua" type="server" />
+		<export function="saveAllFactions" type="server" />
+
+	<script src="s_factionadmin.lua" type="server" />
+	<script src="c_factionadmin.lua" type="client" />
+
+	<script src="s_faction_menu.lua" type="server" />
+	<script src="c_faction_menu.lua" type="client" />
+</meta>

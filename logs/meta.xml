@@ -1,0 +1,21 @@
+<meta>
+	<info name="Log System" author="Emerald Gaming Development Team" type="script" description="Serversided Log System"/>	
+	
+	<script src="s_logs.lua" type="server"/>
+		<export function="addLog" type="server" />
+		<export function="getLogs" type="server" />
+	
+	<script src="s_vehicles.lua" type="server"/>
+		<export function="addVehicleLog" type="server" />
+		<export function="updateVehicleLog" type="server" />
+		<export function="getVehicleLogs" type="server" />
+
+	<script src="s_interiors.lua" type="server" />
+		<export function="addInteriorLog" type="server" />
+		<export function="updateInteriorLog" type="server" />
+		<export function="getInteriorLogs" type="server" />
+
+	<script src="s_factions.lua" type="server" />
+		<export function="addFactionLog" type="server" />
+		<export function="getFactionLogs" type="server" />
+</meta>

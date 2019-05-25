@@ -1,0 +1,5 @@
+<meta>
+  <info author="MTA Community Resource" version="1.0" type="script" />
+  <script src="server.lua" type="server" />
+  <script src="client.lua" type="client" />
+</meta>

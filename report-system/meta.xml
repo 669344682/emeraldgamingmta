@@ -1,0 +1,22 @@
+<meta>
+        <info name="Development" author="Emerald Gaming Development Team" type="script" description="Reports Resource"/>	
+        <script src="s_reports.lua" type="server"/>
+        <script src="c_reports.lua" type="client"/>
+        <script src="g_reports.lua" type="shared"/>
+
+    	<file src="images/black_on_white/reportpanel_offgreen.png" />
+    	<file src="images/black_on_white/reportpanel_offyellow.png" />
+    	<file src="images/black_on_white/reportpanel_offred.png" />
+
+    	<file src="images/black_on_white/reportpanel_ongreen.png" />
+    	<file src="images/black_on_white/reportpanel_onyellow.png" />
+    	<file src="images/black_on_white/reportpanel_onred.png" />
+
+   		<file src="images/white_on_black/reportpanel_offgreen.png" />
+	    <file src="images/white_on_black/reportpanel_offyellow.png" />
+	    <file src="images/white_on_black/reportpanel_offred.png" />
+
+	    <file src="images/white_on_black/reportpanel_ongreen.png" />
+	    <file src="images/white_on_black/reportpanel_onyellow.png" />
+	    <file src="images/white_on_black/reportpanel_onred.png" />
+</meta>

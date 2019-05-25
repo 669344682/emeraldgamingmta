@@ -1,0 +1,8 @@
+<meta>
+    <info name="Character System" author="Skully" type="script" description="Character System"/>	
+    <script src="s_characters.lua" type="server"/>
+    <script src="c_characters.lua" type="client"/>
+
+    <script src="s_character_creation.lua" type="server"/>
+    <script src="c_character_creation.lua" type="client"/>
+</meta>

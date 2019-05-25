@@ -1,0 +1,16 @@
+<meta>
+    <info name="Fuel System" author="Skully" type="script" description="Vehicle Fuel System" />	
+    
+    <script src="s_fuel.lua" type="server" />
+    <script src="g_fuel.lua" type="shared" />
+        <export function="isPlayerAtGasStation" type="shared" />
+    
+    <script src="s_refuel.lua" type="server" />
+    <script src="c_refuel.lua" type="client" />
+
+    <!-- /assets/ -->
+    <file src="assets/fuelFont.ttf" />
+    <file src="assets/fuel_loop.ogg" />
+    <file src="assets/release_trigger.ogg" />
+    <file src="assets/unhook.ogg" />
+</meta>

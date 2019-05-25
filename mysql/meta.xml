@@ -1,0 +1,12 @@
+<meta>
+    <info name="MySQL System" author="Emerald Gaming Development Team" type="script" description="MySQL Manager"/>	
+    
+    <script src="s_connection.lua" type="server"/>
+
+    <export function="getConnection" type="server" />
+    <export function="Query" type="server" />
+    <export function="QuerySingle" type="server" />
+    <export function="Execute" type="server" />
+    <export function="QueryString" type="server" />
+    <export function="Poll" type="server" />
+</meta>

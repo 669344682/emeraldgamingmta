@@ -1,0 +1,14 @@
+<meta>
+    <info name="Chat System" author="Emerald Gaming Development Team" type="script" description="Chat System" />	
+    <script src="s_chats.lua" type="server" />
+    <script src="c_chats.lua" type="client" />
+
+    <script src="s_typing.lua" type="server" />
+    <script src="c_typing.lua" type="client" />
+
+	<!-- Images -->
+    <file src="images/typing.png" />
+    
+    <!-- Sounds -->
+    <file src="sounds/messagesound.mp3" />
+</meta>

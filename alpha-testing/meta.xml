@@ -1,0 +1,8 @@
+<meta>
+    <info name="Alpha Testing" author="Skully" type="script" description="Alpha Testing Resource" />	
+    <script src="s_main.lua" type="server" />
+    <script src="c_main.lua" type="client" />
+
+    <script src="s_logs.lua" type="server" />
+    <script src="c_logs.lua" type="client" />
+</meta>

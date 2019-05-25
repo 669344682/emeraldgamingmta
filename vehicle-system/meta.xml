@@ -1,0 +1,77 @@
+<meta>
+	<info name="Vehicle System" author="Skully" type="script" description="Vehicle System"/>
+
+	<script src="s_vehicle_functions.lua" type="server" />
+		<export function="reloadVehicle" type="server" />
+	
+	<script src="s_vehicles.lua" type="server"/>
+		<export function="saveAllVehicles" type="server" />
+	<script src="g_vehicles.lua" type="shared"/>
+		<export function="vehicleHasWindows" type="shared" />
+		<export function="getTankSize" type="shared" />
+		<export function="isPlatelessVehicle" type="shared" />
+	<script src="c_vehicles.lua" type="client"/>
+
+	<script src="s_vehadmin.lua" type="server" />
+	<script src="c_vehadmin.lua" type="client" />
+
+	<script src="s_makeveh.lua" type="server"/>
+	<script src="c_makeveh.lua" type="client"/>
+
+	<script src="s_vehlist.lua" type="server"/>
+	<script src="c_vehlist.lua" type="client"/>
+
+	<script src="s_editveh.lua" type="server" />
+	<script src="c_editveh.lua" type="client" />
+	
+	<script src="s_indicators.lua" type="server" />
+	<script src="c_indicators.lua" type="client" />
+
+	<script src="s_handbrake.lua" type="server" />
+	<script src="c_handbrake.lua" type="client" />
+		<export function="handbrakeVehicle" type="client" />
+
+	<script src="s_player_commands.lua" type="server" />
+	<script src="c_hud.lua" type="client" />
+	<script src="c_checkveh.lua" type="client" />
+	<script src="c_cruisecontrol.lua" type="client" />
+	<script src="c_sellveh.lua" type="client" />
+	
+	<!-- /images/ -->
+    <file src="images/disc.png" />
+    <file src="images/discmph.png" />
+    <file src="images/fuel.png" />
+    <file src="images/dashboard.png" />
+    <file src="images/dash_cc.png" />
+    <file src="images/dash_handbrake.png" />
+    <file src="images/dash_hazards.png" />
+    <file src="images/dash_lights.png" />
+    <file src="images/dash_seatbelt.png" />
+    <file src="images/dash_lowfuel.png" />
+    <file src="images/dash_turnsignal.png" />
+
+	<!-- /sounds/ -->
+	<file src="sounds/cc_engaged.mp3" />
+		<!-- /sounds/engine -->
+		<file src="sounds/engine/class1.wav" />
+		<file src="sounds/engine/class1_tail.wav" />
+		<file src="sounds/engine/class2.wav" />
+		<file src="sounds/engine/class2_tail.wav" />
+		<file src="sounds/engine/class3.wav" />
+		<file src="sounds/engine/class3_tail.wav" />
+		<file src="sounds/engine/truck.wav" />
+		<file src="sounds/engine/truck_tail.wav" />
+		<file src="sounds/engine/bike.wav" />
+		<file src="sounds/engine/bike_tail.wav" />
+		<file src="sounds/engine/exterior_stall.wav" />
+		<!-- /sounds/handbrake -->
+		<file src="sounds/handbrake/normal_handbrake.wav" />
+		<file src="sounds/handbrake/sports_handbrake.wav" />
+		<file src="sounds/handbrake/truck_handbrake.wav" />
+		<file src="sounds/handbrake/van_handbrake.wav" />
+		<file src="sounds/handbrake/release_handbrake.mp3" />
+		<!-- /sounds/lock -->
+		<file src="sounds/lock/car_inside_lock.mp3" />
+		<file src="sounds/lock/car_inside_unlock.mp3" />
+		<file src="sounds/lock/car_lock.mp3" />
+</meta>

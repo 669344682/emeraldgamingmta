@@ -1,0 +1,9 @@
+<meta>
+    <info name="3DUI" author="Skully" type="script" description="3D GUI Library" version="0.1.5" />
+
+    <script src="c_core.lua" type="client" />
+    <script src="c_atm.lua" type="client" />
+    <script src="c_testing.lua" type="client" />
+
+    <min_mta_version server="1.5.0" client="1.5.0" />
+</meta>

@@ -1,0 +1,4 @@
+<meta>
+        <info name="Resource Manager" author="Emerald Gaming Development Team" type="script" description="Resource Manager"/>	
+        <script src="s_resources.lua" type="server"/>
+</meta>

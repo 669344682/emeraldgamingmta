@@ -1,0 +1,53 @@
+<meta>
+    <info name="HUD System" author="Emerald Gaming Development Team" type="script" description="HUD System"/>   
+    <script src="s_hud.lua" type="server"/>
+    <script src="s_hudevents.lua" type="server"/>
+    <script src="c_hud.lua" type="client"/>
+
+    <script src="c_nametags.lua" type="client"/>
+
+    <export function="hudEvent" type="server" />
+    <export function="isHudEnabled" type="client" />
+
+    <!-- images/staff/ -->
+    <file src="images/staff/helper.png" />
+    <file src="images/staff/admin.png" />
+    <file src="images/staff/manager.png" />
+    <file src="images/staff/developer.png" />
+    <file src="images/staff/vehicleteam.png" />
+    <file src="images/staff/mappingteam.png" />
+
+    <!-- images/hud/black_on_white -->
+    <file src="images/hud/black_on_white/hudicon.png" />
+    <file src="images/hud/black_on_white/togmgtwarn.png" />
+    <file src="images/hud/black_on_white/engine.png" />
+    <file src="images/hud/black_on_white/speedo.png" />
+    <file src="images/hud/black_on_white/reportpanel_offgreen.png" />
+    <file src="images/hud/black_on_white/reportpanel_offyellow.png" />
+    <file src="images/hud/black_on_white/reportpanel_offred.png" />
+    <file src="images/hud/black_on_white/reportpanel_on.png" />
+    <file src="images/hud/black_on_white/lowhealth.png" />
+    <file src="images/hud/black_on_white/lowhealth2.png" />
+    <file src="images/hud/black_on_white/armour.png" />
+    <file src="images/hud/black_on_white/seatbelt.png" />
+    <file src="images/hud/black_on_white/windowdown.png" />
+    <file src="images/hud/black_on_white/handbrake.png" />
+    <file src="images/hud/black_on_white/togpm.png" />
+
+    <!-- images/hud/white_on_black -->
+    <file src="images/hud/white_on_black/hudicon.png" />
+    <file src="images/hud/white_on_black/togmgtwarn.png" />
+    <file src="images/hud/white_on_black/engine.png" />
+    <file src="images/hud/white_on_black/speedo.png" />
+    <file src="images/hud/white_on_black/reportpanel_offgreen.png" />
+    <file src="images/hud/white_on_black/reportpanel_offyellow.png" />
+    <file src="images/hud/white_on_black/reportpanel_offred.png" />
+    <file src="images/hud/white_on_black/reportpanel_on.png" />
+    <file src="images/hud/white_on_black/lowhealth.png" />
+    <file src="images/hud/white_on_black/lowhealth2.png" />
+    <file src="images/hud/white_on_black/armour.png" />
+    <file src="images/hud/white_on_black/seatbelt.png" />
+    <file src="images/hud/white_on_black/windowdown.png" />
+    <file src="images/hud/white_on_black/handbrake.png" />
+    <file src="images/hud/white_on_black/togpm.png" />
+</meta>

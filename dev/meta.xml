@@ -1,0 +1,21 @@
+<meta>
+    <info name="Development" author="Emerald Gaming Development Team" type="script" description="Development Resource" />	
+    <script src="s_dev.lua" type="server" />
+    <script src="g_dev.lua" type="shared" />
+    <script src="c_dev.lua" type="client" />
+    
+    <!-- /skully/ -->
+    <script src="skully/s_skullydev.lua" type="server" />
+    <script src="skully/g_skullydev.lua" type="shared" />
+    <script src="skully/c_skullydev.lua" type="client" />
+    <script src="skully/s_cam.lua" type="server" />
+
+    <!-- /zil/ -->
+    <script src="zil/s_zildev.lua" type="server" />
+    <script src="zil/c_zildev.lua" type="client" />
+
+    <min_mta_version server="1.5.0" client="1.5.0" />
+    <file src="pd.png" />
+    <file src="fd.png" />
+    <file src="gov.png" />
+</meta>

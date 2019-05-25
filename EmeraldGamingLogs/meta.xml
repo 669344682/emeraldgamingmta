@@ -1,0 +1,5 @@
+<meta>
+    <info name="Log System" author="Emerald Gaming Development Team" type="script" description="Local Log System"/>
+
+    <script src="c_logs.lua" type="client" />
+</meta>

@@ -1,0 +1,33 @@
+<meta>
+	<info name="Interior System" author="Skully" type="script" description="Interior System" />	
+	<script src="s_interiors.lua" type="server" />
+	<script src="g_interiors.lua" type="shared" />
+		<export function="getInteriorType" type="shared" />
+
+	<script src="c_interiors.lua" type="client" />
+	
+	<script src="s_interior_functions.lua" type="server" />
+		<export function="saveAllInteriors" type="server" />
+		<export function="reloadInterior" type="server" />
+
+	<script src="c_interior_functions.lua" type="client" />
+
+	<script src="s_intadmin.lua" type="server" />
+	<script src="c_intadmin.lua" type="client" />
+	
+	<script src="c_createint.lua" type="client" />
+	<script src="c_checkint.lua" type="client" />
+
+	<script src="custom/c_createObject.lua" type="client" />
+
+	<!-- /assets -->
+		<!-- sounds -->
+		<file src="assets/sounds/door_lock_sound.mp3" />
+		<file src="assets/sounds/door_islocked.mp3" />
+		<file src="assets/sounds/door_knocking.mp3" />
+
+	<!-- /custom [Custom Map Files] -->
+		<!-- /interiors -->
+		<script src="custom/interiors/airport.lua" type="client" />
+		<script src="custom/interiors/lvmpd.lua" type="client" />
+</meta>

@@ -1,0 +1,15 @@
+<meta>
+	<info name="Sound Manager" author="Skully" type="script" description="Sound Manager" />	
+	<script src="s_sound.lua" type="server" />
+		<export function="playSoundEffectServer" type="server" />
+		<export function="playSoundToNearbyClients" type="server" />
+	<script src="c_sound.lua" type="client" />
+		<export function="playSoundEffect" type="client" />
+		<export function="stopSoundEffect" type="client" />
+
+	<!-- /sounds/ -->
+		<!-- interior-system -->
+		<!-- vehicle-system -->
+		
+	<min_mta_version server="1.5.0" client="1.5.0" />
+</meta>

@@ -1,0 +1,12 @@
+<meta>
+	<info author="Emerald Gaming Development Team" description="World Items" type="script" version="1.0" />
+	
+	<script src="s_world_items.lua" type="server" />
+		<export function="createItem" type="server" />
+		<export function="deleteItem" type="server" />
+		<export function="loadWorldItem" type="server" />
+		<export function="setItemData" type="server" />
+	
+	<script src="g_world_items.lua" type="shared" />
+	<script src="c_world_items.lua" type="client" />
+</meta>

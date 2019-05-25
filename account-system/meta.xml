@@ -1,0 +1,15 @@
+<meta>
+	<info name="Account System" author="Emerald Gaming Development Team" type="script" description="Account management system." />	
+
+	<script src="s_settings_menu.lua" type="server" />
+	<script src="c_settings_menu.lua" type="client" />
+
+	<script src="s_accounts.lua" type="server" />
+	<script src="c_settings.lua" type="client" />
+	<script src="c_f10_menu.lua" type="client" />
+	<script src="c_help_menu.lua" type="client" />
+
+	<export function="loadAccountData" type="server" />
+	
+	<file src="underline.png" />
+</meta>

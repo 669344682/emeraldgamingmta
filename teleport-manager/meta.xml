@@ -1,0 +1,12 @@
+<meta>
+	<info name="Teleporter Manager" author="Skully" type="script" description="Teleporter Manager"/>
+	
+	<script src="s_teleport_functions.lua" type="server" />
+		<export function="saveAllTeleporters" type="server" />
+
+	<script src="c_teleport_functions.lua" type="client" />
+	
+	<script src="s_teleport.lua" type="server" />
+	<script src="g_teleport.lua" type="shared" />
+	<script src="c_teleport.lua" type="client" />
+</meta>

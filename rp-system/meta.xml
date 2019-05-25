@@ -1,0 +1,6 @@
+<meta>
+	<info name="Roleplay System" author="Emerald Gaming Development Team" type="script" description="Roleplay System" />	
+	
+	<script src="s_roleplay.lua" type="server" />
+	<script src="c_chatting.lua" type="client" />
+</meta>

@@ -1,0 +1,7 @@
+<meta>
+    <info author="Emerald Gaming Development Team" type="script" description="Phone System"/>
+
+    <script src="s_phone.lua" type="server" />
+    <script src="g_phone.lua" type="shared" />
+    <script src="c_phone.lua" type="client" />
+</meta>

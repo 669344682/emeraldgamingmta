@@ -1,0 +1,9 @@
+<meta>
+	<info name="Player System" author="Skully" type="script" description="Player System" />	
+	
+	<script src="s_commands.lua" type="server" />
+	<script src="c_commands.lua" type="client" />
+
+	<script src="s_commandlist.lua" type="server" />
+	<script src="c_commandlist.lua" type="client" />
+</meta>

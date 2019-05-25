@@ -1,0 +1,10 @@
+<meta>
+    <info name="Radio System" author="Skully" type="script" description="Radio Streaming System" />	
+    <script src="s_radio.lua" type="server" />
+    <script src="c_radio.lua" type="client" />
+
+    <script src="s_radio_manager.lua" type="server" />
+    <script src="c_radio_manager.lua" type="client" />
+
+    <min_mta_version server="1.5.0" client="1.5.0" />
+</meta>

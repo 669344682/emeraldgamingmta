@@ -1,0 +1,135 @@
+<meta>
+	<info name="Global" author="Emerald Gaming Development Team" type="script" description="Global Functions" />	
+	
+	<script src="s_functions.lua" type="server" />
+		<export function="getPlayerFromPartialNameOrID" type="server" />
+		<export function="getTableLength" type="server" />
+		<export function="generateRPName" type="server" />
+		<export function="updateNametagColor" type="server" />
+		<export function="getAccountFromName" type="server" />
+		<export function="getAccountNameFromID" type="server" />
+
+	<script src="g_functions.lua" type="shared" />
+		<export function="isValidSkin" type="shared" />
+		<export function="table_find" type="shared" />
+		<export function="getElementDistance" type="shared" />
+		<export function="math_round" type="shared" />
+		<export function="getSkinGender" type="shared" />
+		<export function="getLanguageName" type="shared" />
+		<export function="getCurrentTime" type="shared" />
+		<export function="convertTime" type="shared" />
+		<export function="formatNumber" type="shared" />
+		<export function="dobToAge" type="shared" />
+		<export function="getPlayerFromAccountID" type="shared" />
+		<export function="getNearbyElements" type="shared" />
+		<export function="getNearestElement" type="shared" />
+		<export function="areElementsWithinDistance" type="shared" />
+
+	<script src="c_functions.lua" type="client" />
+		<export function="getPlayerFromPartialNameOrID" type="client" />
+		<export function="smoothMoveCamera" type="client" />
+
+	<script src="s_main.lua" type="server" />
+		<export function="serverSpawnPlayer" type="server" />
+		<export function="encryptString" type="server" />
+	
+	<script src="s_vehicles.lua" type="server" />
+		<export function="getVehicleFromID" type="server" />
+		<export function="vehicle_warpPedIntoVehicle" type="server" />
+		<export function="doesVehicleExist" type="server" />
+		<export function="getVehicleSlots" type="server" />
+		<export function="getVehicleModelInfo" type="server" />
+		<export function="getVehicleInfo" type="server" />
+
+	<script src="g_vehicles.lua" type="shared" />
+		<export function="hasVehicleEngine" type="shared" />
+		<export function="hasVehicleLights" type="shared" />
+		<export function="generateNumberPlate" type="shared" />
+		<export function="getVehicleVelocity" type="shared" />
+
+	<script src="s_staff.lua" type="server" />
+		<export function="numberToRankName" type="server" />
+		<export function="setPlayerTitles" type="server" />
+
+	<script src="g_staff.lua" type="shared" />
+		<export function="isPlayerLeadManager" type="shared" />
+		<export function="isPlayerManager" type="shared" />
+		<export function="isPlayerLeadAdmin" type="shared" />
+		<export function="isPlayerAdmin" type="shared" />
+		<export function="isPlayerTrialAdmin" type="shared" />
+		<export function="isPlayerHelper" type="shared" />
+
+		<export function="isPlayerLeadDeveloper" type="shared" />
+		<export function="isPlayerDeveloper" type="shared" />
+		<export function="isPlayerTrialDeveloper" type="shared" />
+
+		<export function="isPlayerVehicleTeamLeader" type="shared" />
+		<export function="isPlayerMappingTeamLeader" type="shared" />
+		<export function="isPlayerFactionTeamLeader" type="shared" />
+		
+		<export function="isPlayerVehicleTeam" type="shared" />
+		<export function="isPlayerMappingTeam" type="shared" />
+		<export function="isPlayerFactionTeam" type="shared" />
+
+		<export function="isPlayerOnStaffDuty" type="shared" />
+		<export function="isPlayerOnDeveloperDuty" type="shared" />
+		<export function="isPlayerOnVTDuty" type="shared" />
+		<export function="isPlayerOnMTDuty" type="shared" />
+
+		<export function="isPlayerStaff" type="shared" />
+		<export function="getStaffTitle" type="shared" />
+		<export function="getStaffLevel" type="shared" />
+		<export function="getOnlineStaff" type="shared" />
+	
+	<script src="s_characters.lua" type="server" />
+		<export function="getCharacterAccount" type="server" />
+		<export function="getCharacterNameFromID" type="server" />
+		<export function="getCharacterIDFromName" type="server" />
+		<export function="getPlayerFromCharacter" type="server" />
+
+	<script src="s_dummy.lua" type="server" />
+		<export function="getDummyData" type="server" />
+		<export function="setDummyData" type="server" />
+
+	<script src="s_messages.lua" type="server" />
+		<export function="sendMessageToPlayers" type="server" />
+		<export function="sendMessageToStaff" type="server" />
+		<export function="sendMessageToAdmins" type="server" />
+		<export function="sendMessageToHelpers" type="server" />
+		<export function="sendMessageToManagers" type="server" />
+		<export function="sendMessageToDevelopers" type="server" />
+		<export function="sendMessageToVehicleTeam" type="server" />
+		<export function="sendMessageToMappingTeam" type="server" />
+		<export function="sendMessageToFactionTeam" type="server" />
+		<export function="sendMessage" type="server" />
+
+	<script src="g_developer.lua" type="shared" />
+		<export function="getDeveloperTitle" type="shared" />
+		<export function="outputDebug" type="shared" />
+
+	<script src="s_interiors.lua" type="server" />
+		<export function="elementEnterInterior" type="server" />
+		<export function="getInteriorFromID" type="server" />
+		<export function="getInteriorSlots" type="server" />
+		<export function="getInteriorOwner" type="server" />
+
+	<script src="s_factions.lua" type="server" />
+		<export function="getFactionFromID" type="server" />
+		<export function="getPlayerFactions" type="server" />
+		<export function="isPlayerFactionLeader" type="server" />
+		<export function="getFactionRank" type="server" />
+		<export function="isPlayerInFaction" type="server" />
+		<export function="getFactionMembers" type="server" />
+		<export function="setPlayerToCivilianTeam" type="server" />
+		<export function="sendMessageToFaction" type="server" />
+		<export function="hasPlayerFactionVehiclePermission" type="server" />
+
+	<script src="g_factions.lua" type="shared" />
+		<export function="getFactionName" type="shared" />
+
+	<script src="s_player.lua" type="server" />
+	<script src="s_saving.lua" type="server" />
+	<script src="c_main.lua" type="client" />
+
+	<min_mta_version server="1.5.5-9.14060" client="1.5.5-9.14060" />
+</meta>
