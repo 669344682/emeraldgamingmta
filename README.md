@@ -1,8 +1,8 @@
 ![Emerald Gaming Logo](https://i.imgur.com/0P2v1NZ.png)
 # INTRODUCTION
 ![Maintained](https://img.shields.io/maintenance/yes/2019.svg)
-![License](https://img.shields.io/eclipse-marketplace/l/ImSkully.svg)
-![Version](https://img.shields.io/github/release/ImSkully/emeraldgamingmta.svg)
+![License](https://img.shields.io/github/license/ImSkully/emeraldgamingmta.svg)
+![Version](https://img.shields.io/github/release-pre/ImSkully/emeraldgamingmta.svg)
 ![Size](https://img.shields.io/github/repo-size/ImSkully/emeraldgamingmta.svg)
 
 Welcome to the **Emerald Gaming GitHub** page. Here you'll find the base for all changes, events and whatnot regarding the gamemode.
