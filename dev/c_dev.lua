@@ -15,12 +15,3 @@ ______ _____ _      ___________ _       _____   __
 \_| \_|\___/\_____/\____/\_|   \_____/\_| |_/\_/
 
 Copyright of the Emerald Gaming Development Team, do not distribute - All rights reserved. ]]
-
---[[
-
-	Button click eventHandler:
-	addEventHandler("onClientDgsDxMouseClick", buttonElement, handingFunction)
-
-]]
-
-emGUI = exports.emGUI
