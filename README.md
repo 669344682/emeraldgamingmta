@@ -1,7 +1,7 @@
 ![Emerald Gaming Logo](https://i.imgur.com/0P2v1NZ.png)
 # INTRODUCTION
 ![Maintained](https://img.shields.io/maintenance/yes/2019.svg)
-![License](https://img.shields.io/eclipse-marketplace/l/notepad4e.svg)
+![License](https://img.shields.io/eclipse-marketplace/l/ImSkully.svg)
 ![Version](https://img.shields.io/github/release/ImSkully/emeraldgamingmta.svg)
 ![Size](https://img.shields.io/github/repo-size/ImSkully/emeraldgamingmta.svg)
 
