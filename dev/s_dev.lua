@@ -156,7 +156,7 @@ function setAdminRank(thePlayer, commandName, targetPlayer, rank)
 		end
 	end
 end
-addCommandHandler("setxdrank", setAdminRank)
+--addCommandHandler("setxdrank", setAdminRank)
 
 -- /setelementdata [Data] [Value] (Player/ID) (Use Anticheat [1-0]) - By Skully (24/05/18) [Lead Developer]
 function pSetElementData(thePlayer, commandName, data, value, targetPlayer, anticheat)
