@@ -32,7 +32,7 @@ Welcome to the **Emerald Gaming GitHub** page. Here you'll find the base for all
 4. Import the [`emerald.sql`](https://github.com/ImSkully/emeraldgamingmta/releases/download/v0.4.0/emerald.sql) file into your MySQL server, this can take a few minutes.
 	*  For phpMyAdmin servers, go to the **Import** tab and select the file from there.
 5. Adjust the [`s_connection.lua`](https://github.com/ImSkully/emeraldgamingmta/blob/master/mysql/s_connection.lua) file in the resource **mysql** to your own database credentials.
-6. Download the [`mtaserver.conf`](https://github.com/ImSkully/emeraldgamingmta/releases/download/v4.0.0/mtaserver.conf) file and replace your original one.
+6. Download the [`mtaserver.conf`](https://github.com/ImSkully/emeraldgamingmta/releases/download/v0.4.0/mtaserver.conf) file and replace your original one.
 7. Start the server and monitor the console for any errors from specific resources.
 8. Connect to the server and register a new account, you will be prompted to visit the website to complete an entry test, to bypass this, go to your database and into the `accounts` table, find your account and change the `appstate` to `1`.
 9. Login to the server.
